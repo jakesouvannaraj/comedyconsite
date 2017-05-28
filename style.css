@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    background-color: #bb0000;
+    position: ;
+    -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.52);
+	-moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.52);
+	box-shadow: 0 7px 8px rgba(0, 0, 0, 0.52);
+    margin-bottom: ;
+}
+
+#nav ul {
+    width: 960px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: aqua;
+    display: inline-block;
+}
+
+#nav li {
+    float: left;
+}
+
+body {  
+    font-family:Helvetica, Arial, Century;
+    font-size:12px;
+    margin:0;
+    background;
+    background-repeat:repeat-x;
+    background-position:top;
+    margin-top:;
+}
+
+
+#header {
+    background-color:#bb0000;
+    height:100px;
+    margin:auto;
+}
+
+
+#header ul {
+        margin:0 auto;
+        width:960px;
+        padding:50px;
+    list-style: none;
+    background-color: ;
+    color: white;
+}
+
+#header li {
+  float: left;
+  color: white;
+}
+
+#header a {
+    padding:0 25px;
+    text-align:center;
+  display:block;  
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}    
+
+    
+#header ul li a.logo {
+    background: url("images/logosmall.png");
+    background-repeat:no-repeat;
+    height:140px;
+    display:block;
+    width:256px;
+    margin-top:-38px;
+    padding: 0;
+    background-color: ;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+     content: "";
+  clear: both;
+  display: table;
+}
+
+#header ul li a:hover {
+    color: #bb0000;
+}
+
+
+
+
+
+#logo {
+    width: 250px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: ;
+    padding-top: 10px;
+}
+
+#pattern {
+    width: 100%;
+    height: 200px;
+    background-image: url(images/patternback.png);
+    margin-bottom: 30px;
+}
+
+#backgroundwrapper {
+    width: 100%;
+    height: 800px;
+    background-image: url(images/StaplesCenterindex.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#texturehighlights {
+    width: 100%;
+    height: 750px;
+    background-image: url(images/texturebackground.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#texturehighlights h1 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #bb0000;
+    font-size: 50px;
+}
+#highlights {
+    width: 960px;
+    height: 400px;
+    background-color: ;
+    margin: 0 auto;
+}
+
+.highlightbox {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    float: left;
+    margin-right: 25px;
+}
+.highlightboxlast {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    float: right;
+}
+
+#briefintro {
+    width: 100%;
+    height: 500px;
+    background-color: #bb0010;
+}sponsorsbox {
+    width: 100%;
+    height: 650px;
+    background-image: url(images/texturebackground.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#sponsorsbox {
+     text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #bb0000;
+    font-size: 50px;
+}
+#sponsorships {
+    width: 960px;
+    height: 900px;
+    background-color: ;
+    margin: 0 auto;
+}
+
+.sponsor {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: ;
+    float: left;
+    margin-right: 25px;
+}
+.sponsorlast {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: ;
+    float: right;
+}
+
+#ad1 {
+    width: 100%;
+    height: 650px;
+    background-image: url(images/goproad.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#ad2 {
+    width: 100%;
+    height: 650px;
+    background-image: url(images/youtubead.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#aboutwrapper {
+    width: 960px;
+    height: 1000px;
+    background-color: ;
+    margin: 0 auto;
+}
+
+#aboutwrapper h1 {
+    font-family: 'Russo One', sans-serif;
+    color: #bb0000;
+    text-align: center;
+    font-size: 72px;
+}
+
+#aboutwrapper h2 {
+    font-family: 'Russo One', sans-serif;
+    color: #bb0000;
+    text-align: left;
+    font-size: 52px;
+}
+
+#aboutwrapper p {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 30px;
+}
+
+#contactwrapper {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background-color: ;
+}
+
+#contactwrapper h1 {
+    font-family: 'Russo One', sans-serif;
+    color: #bb0000;
+    font-size: 72px;
+    text-align: center;
+}
+
+#contactwrapper h2 {
+    font-family: 'Russo One', sans-serif;
+    color: #bb0000;
+    text-align: left;
+    font-size: 52px;
+}
+
+#contactwrapper p {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 30px;
+}
+
+#contactwrapper li {
+     font-family: 'Jaldi', sans-serif;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+#biosholder {
+    width: 960px;
+    height: 1900px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: saddlebrown;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.box:hover span.text-content {
+	opacity: 1;
+}
+
+.boxnomargin{
+    width: 300px;
+    height: 300px;
+    background-color: saddlebrown;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#schedulewrapper {
+    width: 960px;
+    height: 300px;
+    background-color: ;
+    margin: 0 auto;
+}
+
+#scheduleheader {
+    width: 960px;
+    height: auto;
+    background-color: ;
+    margin: 0 auto;
+}
+
+#schedulewrapper2 {
+    width: 960px;
+    height: 300px;
+    background-color: ;
+    margin: 0 auto;
+}
+
+#scheduleheader2 {
+    width: 960px;
+    height: auto;
+    background-color: ;
+    margin: 0 auto;
+}
+
+#scheduleheader h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 72px;
+    color: #bb0000;
+    text-align: center;
+}
+
+#scheduleheader2 h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 72px;
+    color: #bb0000;
+    text-align: center;
+}
+
+.scheduledivider1 {
+    width: 319px;
+    height: 30px;
+    background-color: #bb0000;
+    border-right: thin double #fff;
+    float: left;
+}
+
+.scheduledivider1 h2 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.scheduledivider2 {
+    width: 319px;
+    height: 30px;
+    background-color: #bb0000;
+    border-right: thin double #fff;
+    float: left;
+}
+
+.scheduledivider2 h2 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.scheduledivider3 {
+    width: 320px;
+    height: 30px;
+    background-color: #bb0000;
+    float: left;
+}
+
+.scheduledivider3 h2 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.scheduleperformer {
+    width: 319px;
+    height: auto;
+    float: left;
+    background-color: ;
+    float: left;
+}
+
+.scheduleperformer li{
+    font-family: 'Jaldi', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+#box {
+    width: 960px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+#break {
+    width: 100%;
+    height: 150px;
+    background-image: url(images/patternback.png);
+    margin-bottom: 40px;
+}
+
+#questionbox1 {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+   
+}
+
+#questionbox2 {
+    width: 100%;
+    height: 300px;
+    background-color: #bb0000;
+}
+
+#questionbox3 {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+#questionbox4 {
+    width: 100%;
+    height: 300px;
+    background-color: #bb0000;
+}
+
+#questionbox5 {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+#questionbox6 {
+    width: 100%;
+    height: 300px;
+    background-color: #bb0000;
+}
+
+#questionbox7 {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+#questionbox8 {
+    width: 100%;
+    height: 300px;
+    background-color: #bb0000;
+}
+
+#questionbox9 {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+#questionbox10 {
+    width: 100%;
+    height: 300px;
+    background-color: #bb0000;
+}
+
+#pattern h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 80px;
+    color: #bb0000;
+    text-align: center;
+    line-height: 2;
+    background-color: ;
+}
+
+.center {
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    background-color: ;
+}
+
+.center ul li {
+    list-style-type: square;
+    color: #bb0000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 40px;
+}
+
+.center2 ul li {
+    list-style-type: square;
+    color: white;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 40px;
+}
+
+.center h1 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 44px;
+    color: #bb0000;
+}
+.center p {
+    text-align: left;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 30px;
+    color: #bb0000;
+}
+
+.center2 {
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    background-color: ;
+}
+
+.center2 h1 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 44px;
+    color: white;
+}
+
+.center2 p {
+    text-align: left;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+#ticketholder {
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+    background-color: ;
+    display: 
+}
+
+#ticketholder img {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#generaladmission {
+    width: 100%;
+    height: 600px;
+    background-color: #bb0000;
+}
+
+#vip {
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+
+#vipplus {
+    width: 100%;
+    height: 600px;
+    background-color: #bb0000;
+}
+
+#allaccess {
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.footerholder {
+    width: 960px;
+    height: auto;
+    background-color: ;
+    margin: 0 auto;
+    text-align: right;
+    font-family: 'Jaldi', sans-serif;
+    color: white;
+    font-size: 20px;
+    
+} 
+
+#biosholder img:hover {
+    opacity: 0.5;
+    color: white;
+}
